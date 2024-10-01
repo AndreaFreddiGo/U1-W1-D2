@@ -25,8 +25,8 @@
     <main>
       <menu>
         <li>Home</li>
-        <li>Articoli</li>
-        <li>Lavora con noi</li>
+        <li><a href="#articolicorrelati">Articoli</a></li>
+        <li><a href="#lavoraconnoi">Lavora con noi</a></li>
       </menu>
       <h2>
         "Come creare un template per i post" di Mario Rossi - pubblicato il
@@ -106,10 +106,57 @@
       </table>
       <p>
         Un test di validazione potrà essere fatto tramite il tool online
+        <a href="http://www.cuzzotool.com">CUZZOTOOL</a>
         dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il
         nostro obiettivo ed essere stati dei veri developers come loro:
       </p>
+      <video src="https://it.wikipedia.org/wiki/File:Howler_monkey.ogg"></video>
+      <p>
+        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra
+        newsletter:
+      </p>
+      <div>
+        <form onsubmit="alert('Iscrizione avvenuta!')">
+          <label for="email">Inserisci la tua email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="cuzzo@mail.com"
+            required
+          />
+          <button>Iscriviti!</button>
+        </form>
+      </div>
+      <aside id="articolicorrelati">
+        <ul>
+          <strong>Articoli correlati</strong>
+          <li>
+            <div>Validare il codice HTML</div>
+            <div>Categoria: develop</div>
+            <div>Data: 18-9-2020</div>
+          </li>
+          <li>
+            <div>Correggere la sintassi</div>
+            <div>Categoria: develop</div>
+            <div>Data: 16-9-2020</div>
+          </li>
+          <li>
+            <div>Meno Kb nella pagina</div>
+            <div>Categoria: ottimizzazione</div>
+            <div>Data: 30-9-2020</div>
+          </li>
+        </ul>
+      </aside>
     </main>
-    <footer></footer>
+    <footer>
+      Blog Epicode ©2023
+      <div>
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
+        Luigi Einaudi 2 - Milano. P.IVA 00112233.
+      </div>
+      <a id="lavoraconnoi" href="mailto:info@epicode.school"
+        >info@epicode.school</a
+      >
+    </footer>
   </body>
 </html>
